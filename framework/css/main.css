@@ -10,7 +10,12 @@
 }
 
 h1 {
-    color: green;
+    color: blue;
+    text-align: right;
+}
+
+h4 {
+    text-align: right;
 }
 
 @media only screen and (max-width: 400px){
@@ -19,9 +24,32 @@ h1 {
     }
 }
 
+#secondPanel {
+    max-width: 900px;
+}
+
+#myname {
+    /*align-content: flex-end;*/
+}
+
+#firstPanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#centralImg {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#headerPanel {
+  height: 100px;
+}
+
 .row {
     width: 100%;
-    display: flex; flex-wrap:wrap;
+    display: flex;
 }
 .col-1 {
     width: 8.33%;
