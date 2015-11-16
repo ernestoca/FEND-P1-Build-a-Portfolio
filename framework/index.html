@@ -3,49 +3,53 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
 	<title>P1: Build a Portofolio Site</title>
 </head>
 <body>
 	<div class="grid">
 		<div class="row">
 			<div class="col-1" id="leftColumn">
-				<div id="header"></div>
+				<div class="header"></div>
 				<div class="column">
-					<div class="square"></div>
-					<div class="square"></div>
-					<div class="square"></div>
+					<div class="square" id="bluesquare"></div>
+					<div class="square" id="snowsquare"></div>
+					<div class="square" id="redsquare"></div>
 					<p>
-						AZUL<br>
-						VERDE<br>
-						NARANJA<br>
+						0000FF<br>
+						FFFAFA<br>
+						FF0000<br>
 					</p>
 				</div>
 			</div>
 			<div class="col-11" id="rightColumn">
 				<div class="row" id="header">
-					<div class="col-1">Logo</div>
+					<div class="col-1"><img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="http://placehold.it/100x80"></div>
 					<div class="col-5"></div>
 					<div class="col-6" id="title">
 							<h1>ERNESTO J OLIVO</h1>
-							<h4>FRONT-END-NINJA</h4>
+							<h4>FRONT-END NINJA</h4>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-12"><img id="centralImg" src="http://placehold.it/860x360"></div>
+					<div class="col-12"><img id="centralImg" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Louvre_Museum_Wikimedia_Commons.jpg" alt="http://placehold.it/860x360"></div>					
 				</div>
 				<div class="row">
-					<div class="col-4"><h2>Featured Work</h2></div>
+					<div class="col-4"><h2 id="subtitle">Solidarité</h2></div>
 					<div class="col-8"></div>
 				</div>
 				<div class="row">
-					<div class="col-4" ><img class="smallImg" src="http://placehold.it/270x180">
-						<div class="subtitle"><h3>Appify</h3></div>
+					<div class="col-4-flexcentered"><img class="smallImg" src="https://upload.wikimedia.org/wikipedia/commons/2/28/Arc_de_Triomphe%2C_2_August_2015_002.jpg" alt="http://placehold.it/270x180">
+						<h3>Arc de Triomphe</h3>
+						<a href="https://en.wikipedia.org/wiki/Arc_de_Triomphe">https://en.wikipedia.org/wiki/Arc_de_Triomphe</a>						
 					</div>
-					<div class="col-4"><img class="smallImg" src="http://placehold.it/270x180">
-						<h3>Sunflower</h3>
-					</div>
-					<div class="col-4"><img class="smallImg" src="http://placehold.it/270x180">
-						<h3>Bokeh</h3>
+					<div class="col-4-flexcentered" ><img class="smallImg" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Toulouse_Capitole_Night_Wikimedia_Commons.jpg" alt="http://placehold.it/270x180">
+						<h3>Toulouse</h3>
+						<a href="https://en.wikipedia.org/wiki/Toulouse">https://en.wikipedia.org/wiki/Toulouse</a>						
+					</div>					
+					<div class="col-4-flexcentered"><img class="smallImg" src="https://upload.wikimedia.org/wikipedia/commons/3/32/Finale_Coupe_de_France_2010-2011_%28Lille_LOSC_vs_Paris_SG_PSG%29.jpg" alt="http://placehold.it/270x180">
+						<h3>Stade de France</h3>
+						<a href="http://www.stadefrance.com/fr/interstitial-page">http://www.stadefrance.com/fr/interstitial-page</a>
 					</div>
 				</div>
 			</div>
